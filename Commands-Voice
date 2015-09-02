@@ -2,23 +2,110 @@
 // and then by OS and receiving/active application and then by colloquial name,
 // at this GitHub Repository: https://github.com/auwsome/Commands
 // The list here represents the 'consensus' usage of each term per application. Collisions or conflicts can be 
-// disputed and resolved by creating an issue for each resolution and voting on it using GitPoll as described in the Read.me
+// discussed and resolved by creating an issue for each alternative and voting on them using GitPoll as described in the Readme.
 
 Global Cross OS:
   "Exit" = exit
   "What can I say?" = Commands List
+  "Standby" = computer standby
+  "Log off"
+  "Lock PC" or "Lock screen"
+  "Restart computer"
+  Shutdown / Turn off / Power off
+  "Hibernate computer"
+  Insert keystrokes = Insert [modifier] [modifier] key [0..99]
+  "Volume up"
+  "Volume down"
+  "Brightness up"
+  "Brightness down"
+  "Switch to desktop" or "Switch to home"
   
   
 Windows:
   Global Cross Application:
   
   Windows Speech Recognition:
-      "Start" = Open Start Menu
+      General:
+        Cancel = Cancel the current action or dialog
+        Start/stop listening = Turn on/off listening mode
+        Click File; Start File; View File = Select any item by its name
+        Double-click item = Double-click any item
+        Right-click item = Press and hold or right-click any item
+        Cut, Copy, Paste, Delete, Undo, Scratch (that or word)
+        “How do I.. install a printer?” 
+        Move speech recognition = Move the Speech Recognition microphone bar
+        Minimize speech recognition = Minimize the microphone bar
+      Navigation:
+        "Start" = Open the Start screen or menu
+        Show desktop = Minimize all windows to show your desktop
+        Open or Switch to item = Open app or Switch to an open app
+        Close, Minimize, Maximize, Restore (*that* or program name)
+        Scroll up,down,left,right = Scroll in one direction
+        Scroll down 2 pages; Scroll up 10 pages = Scroll an exact distance in pages
+        Scroll up 5; Scroll down 7 = Scroll an exact distance in other units
+        Go to field name; Go to Subject; Go to Address; Go to cc = Go to a field in a form or an app
+        Show numbers = Select something if you don't know what it's called
+        [0..99] Okay = Select a numbered item
+        Double-click, Right-click [0..99] 
+        Show the mousegrid
+      Keys:
+        Press keyboard key; Press a; 
+        Press capital b; Press Shift plus a; Press Ctrl plus a
+          ICAO\NATO phonetic alphabet to say the keyboard keys to press. 
+          For example, you can say "press alpha" to press "a" or "press bravo" to press "b."
+        Delete; Backspace; Enter; Page Up; Page Down; Home; End; Tab = same
+      Charms:
+        Press Windows Q,S = Open the Search charm
+        Press Windows I = Open the Settings charm
+        Press Windows Z; Right-click = Show the commands available in the app
+      Sources:
+        https://gist.github.com/clojens/9c3e3ff4b7a5535a2575
+        http://windows.microsoft.com/en-us/windows-8/using-speech-recognition
+        http://www.ngtvoice.com/products/software/wsr/commands.htm
       
   Vocola or WSRMacros:
       "Standby" or "Stand By" = cmd Standby 
+      Open Commands
+      Open Global [Commands]
+      Insert keystrokes with Vocola syntax = Insert [modifier] [modifier] key [2..99]
+      Open User Interface Commands
+      Open Command File Commands
+      Open Dictation Commands
+      Open Correction Commands
+      Open Keystroke Commands
+      Show Error
+      Source:
+      http://vocola.net/v3/CheatSheet.asp
+      http://vocola.net/v3/KeystrokeSyntax.asp
+      http://ss64.com/vb/sendkeys.html
+      https://www.autoitscript.com/autoit3/docs/appendix/SendKeys.htm
+      http://www.msspeech-forum.com/forum_topics.asp?FID=25
       
   Dragon Naturally Speaking:
+    "Hey, Dragon" 
+    "What is the weather like today?"
+    "start dictation"
+    "Send email"
+    "Open Quick Links"
+    "Snap app to right"
+    "Move right"
+    "Snap app to left"
+    "Move left"
+    "Turn on WiDi"
+    "Next page"
+    "Previous page"
+    "Open <folder name> folder"
+      "Open Documents folder"
+      "Open Downloads folder"
+      "Open Music folder"
+      "Open Videos folder"
+    "Open Control Panel"
+    "Launch Task Manager"
+    "Open Charms"
+    "Open Share charm"
+    "Launch Run box"
+    Source:
+      http://www.nuance.com/products/help/dragon/dragon-assistant/#overview/online_local_ovr.htm%3FTocPath%3D_____5
   Dragonfly:
   Tatzi:
   eSpeaking:
@@ -35,6 +122,6 @@ Android:
       
       
 Linux:
-https://github.com/baitsart/voice-commands/blob/master/voice_commands/speech_commands.sh
+  https://github.com/baitsart/voice-commands/blob/master/voice_commands/speech_commands.sh
       
 Mac:
